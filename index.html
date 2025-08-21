@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário DevQuest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/reset.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/responsivo.css">
+  </head>
+  <body>
+    <main>
+      <section class="texto">
+        <h3>FICOU COM DÚVIDA? <br />NOS MANDE UMA MENSAGEM!</h3>
+        <p class="texto-principal">
+          caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e
+          entraremos em contato em menos de 24h.
+        </p>
+      </section>
+      <section class="formulario">
+        <form action="#">
+          <input
+            class="input_formulario"
+            name="nome"
+            id="nome"
+            type="text"
+            placeholder="Nome completo *"
+          />
+          <span class="span_formulario">campo obrigatório</span>
+          <input
+            class="input_formulario"
+            name="email-user"
+            id="email-user"
+            type="email"
+            placeholder="Email *"
+          />
+          <span class="span_formulario">campo obrigatório</span>
+          <input
+            class="input_formulario"
+            name="telefone"
+            id="telefone"
+            type="tel"
+            placeholder="Telefone *"
+          />
+          <span class="span_formulario">campo obrigatório</span>
+          <textarea
+            class="input_formulario"
+            name="mensagem"
+            id="mensagem"
+            placeholder="Mensagem *"
+            rows="6"
+            cols="40"
+          ></textarea>
+          <span class="span_formulario">campo obrigatório</span>
+          <p class="texto-formulario">*Campos obrigatórios</p>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
